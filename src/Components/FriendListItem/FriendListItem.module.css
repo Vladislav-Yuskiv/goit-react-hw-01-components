@@ -1,0 +1,24 @@
+.item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 7px #666;
+  width: 250px;
+  margin-left: 55px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.status {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.name {
+  margin-left: 20px;
+}

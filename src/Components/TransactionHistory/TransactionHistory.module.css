@@ -1,0 +1,14 @@
+.table {
+  border: 2px solid grey;
+  box-shadow: 0 0 7px #666;
+  width: 600px;
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.head {
+  background-color: rgb(4, 130, 161);
+}
+.line:nth-child(2n) {
+  background-color: rgb(177, 177, 177);
+}

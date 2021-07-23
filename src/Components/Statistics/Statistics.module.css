@@ -1,0 +1,35 @@
+.statistics {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 300px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.title {
+  color: gray;
+  background-color: rgb(189, 185, 185);
+  padding: 20px;
+  margin: 0;
+}
+.list {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.label {
+  font-weight: bold;
+  color: rgb(88, 88, 88);
+  font-size: 13px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  padding: 10px;
+  background-color: rgb(224, 174, 174);
+}
+.item:not(:last-child) {
+  border-right: 2px solid gray;
+}

@@ -1,0 +1,8 @@
+.list {
+  list-style: none;
+  background-color: rgb(108 101 101 / 49%);
+  width: 400px;
+  margin-left: 50px;
+  text-align: center;
+  padding: 30px;
+}
